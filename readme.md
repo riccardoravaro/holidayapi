@@ -41,4 +41,5 @@ Now you can visit the API http://holidayapi.app/api/v1/holidays?country=US&year=
 ## Unit tests
 				vagrant ssh
                 cd /vagrant/docroot
+                touch database/database.sqlite
                 phpunit
