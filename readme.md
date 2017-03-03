@@ -16,7 +16,7 @@ add 192.168.10.10 holidayapi.app in your host file
  
 website url http://holidayapi.app/
 
-##  database seed
+##  Database data importer
 
 				vagrant ssh
                 cd /vagrant/docroot
@@ -43,3 +43,5 @@ Now you can visit the API http://holidayapi.app/api/v1/holidays?country=US&year=
                 cd /vagrant/docroot
                 touch database/database.sqlite
                 phpunit
+                
+                
