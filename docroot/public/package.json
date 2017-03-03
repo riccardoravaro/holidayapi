@@ -1,0 +1,30 @@
+{
+  "name": "holidayapi.com",
+  "version": "0.0.0",
+  "description": "holidayapi.com ==============",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "*",
+    "gulp": "*",
+    "gulp-connect-php": "*",
+    "gulp-minify-css": "*",
+    "gulp-notify": "*",
+    "gulp-rename": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joshtronic/holidayapi.com.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshtronic/holidayapi.com/issues"
+  }
+}
