@@ -20,6 +20,7 @@ website url http://holidayapi.app/
 
 				vagrant ssh
                 cd /vagrant/docroot
+                php artisan migrate
                 php artisan db:seed --class=HolidaysSeeder
 
 Now you can visit the API http://holidayapi.app/api/v1/holidays?country=US&year=2017&month=03
@@ -41,10 +42,3 @@ Now you can visit the API http://holidayapi.app/api/v1/holidays?country=US&year=
 				vagrant ssh
                 cd /vagrant/docroot
                 phpunit
-                
-  
-
-
-
-
-
